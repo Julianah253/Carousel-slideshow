@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+ }
+
+ .carousel-container{
+    width: 31%;
+    margin: auto;
+    margin-top: 40px;
+    border: 5px solid black;
+    overflow: hidden;
+    position: relative;
+ }
+
+ .carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+ }
+
+ .carousel-slide>img{
+  display: flex;
+  width: 100%;
+  height: 500px;
+}
+
+  .btn{
+    border: none;
+    outline: none;
+    background: #888;
+    padding: 10px 30px;
+    font-size: 20px;
+    color: pink;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+
+  .btn:hover{
+    background: blueviolet;
+
+  }
+
+  body{
+    text-align: center;
+  }
